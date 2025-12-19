@@ -48,14 +48,14 @@ export default function Cart() {
                 <span className="px-2 font-medium">{item.quantity}</span>
                 <button
                   onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                  className="px-3 py-1 bg-gray-200 rounded hover:bg-gray-300"
+                  className="px-3 py-1 bg-blue-200 rounded hover:bg-gray-300"
                 >
                   +
                 </button>
               </div>
               <button
                 onClick={() => removeFromCart(item.id)}
-                className="px-3 py-1 bg-red-500 text-white rounded-lg hover:bg-red-600 text-sm sm:text-base"
+                className="px-3 py-1 bg-blue-500 text-black rounded-lg hover:bg-red-600 text-sm sm:text-base"
               >
                 Remove
               </button>
